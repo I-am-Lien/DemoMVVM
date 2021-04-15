@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/itemHome">
+
+    <fragment
+        android:id="@+id/itemHome"
+        android:name="com.li.mvvmdemo.ui.home.HomeFragment"
+        android:label="@string/home_fragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/itemFavorite"
+        android:name="com.li.pokemonmvvm.ui.favorite.FavoriteFragment"
+        android:label="@string/favorite_fragment"
+        tools:layout="@layout/fragment_favorite" />
+</navigation>

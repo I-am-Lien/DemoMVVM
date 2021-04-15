@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">PokemonMVVM</string>
+    <string name="app_name">MVVMDemo</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_pokemon_owner">Pokemon Owner</string>
+    <string name="delete_success">Delete Success</string>
+    <string name="delete_fail">Delete Fail</string>
+    <string name="add_fail">Add Fail</string>
+    <string name="add_success">Add Success</string>
+    <string name="home_fragment">HomeFragment</string>
+    <string name="favorite_fragment">FavoriteFragment</string>
 </resources>
